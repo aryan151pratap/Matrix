@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-	origin:["http://localhost:5173", "https://app.mediahub.qzz.io"],
+	origin:["http://localhost:5173", "https://app.mediahub.qzz.io", "https://matrix-zif9.onrender.com"],
 	credentials:true
 }));
 connectDB();
